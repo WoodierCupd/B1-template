@@ -25,8 +25,8 @@ body, html{
 }
 
 .wrapper{
-  max-width: 960px;
   width: 100%;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -109,6 +109,7 @@ article{
   border-left: 5px solid #27AE60;
   padding-left: 10px;
   margin: 1em 1em 1em 0;
+  display: inline;
 }
 article:last-of-type{
   margin-right: 0;
@@ -214,7 +215,8 @@ footer{
   }
 
   .row{
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
   }
   .sidy-by-side{
     flex-direction: column;

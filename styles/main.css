@@ -204,6 +204,10 @@ footer{
 .hidden-on-sm{
   display: block;
 }
+.productPage{
+  display: flex;
+
+}
 
 
 /* 
@@ -227,6 +231,10 @@ footer{
 */
 
 @media (max-width: 1024px) {
+  .productPage{
+    flex-direction: column;
+    display: flex;
+  }
   .logo{
     margin: 0 auto;
     width: 256px;

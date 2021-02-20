@@ -208,21 +208,6 @@ footer{
   display: flex;
 
 }
-.tableHeader{
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 3px solid black;
-  margin: 0;
-  padding: 0;
-}
-.tableHeader h4{
-  margin: 10px 0;
-  padding: 0;
-}
-.table{
-  display: flex;
-  justify-content: space-between;
-}
 
 
 /* 
